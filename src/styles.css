@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+  display: grid;
+  height: 100vw;
+  background-color: #5e1a1a;
+}
+
+.fondoApp {
+  border-radius: 5px;
+  align-self: center;
+  padding: 25px;
+  width: 100%;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmNqJVfP89cc4CkSwiYdJ15PmUdjPqQBVVQg&usqp=CAU");
+}
+
+.cont--main {
+  display: grid;
+  padding: 10px;
+}
+
+@media only screen and (min-width: 860px) {
+  .cont--main {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.contenedor--title {
+  display: grid;
+  font-family: monospace;
+  margin-bottom: 60px;
+}
+
+@media only screen and (min-width: 860px) {
+  .contenedor--title {
+    margin-bottom: 0px;
+  }
+}
+
+.title {
+  font-size: 32px;
+  padding-bottom: 20px;
+  padding-top: 12px;
+  color: #5e1a1a;
+}
+
+@media only screen and (min-width: 860px) {
+  .title {
+    font-size: 64px;
+  }
+}
+
+.description {
+  font-size: 16px;
+  color: #5e1a1a;
+}
+
+@media only screen and (min-width: 860px) {
+  .description {
+    font-size: 24px;
+    padding-right: 40px;
+    padding-left: 40px;
+    max-width: fit-content;
+  }
+}
+
+.contenedor--body {
+  display: grid;
+}
+
+.cont-advisor {
+  background-color: #9b5151;
+  border-radius: 10px;
+  margin: 0px 5px 25px 5px;
+  padding: 10px;
+}
+
+.advisor {
+  color: white;
+  font-family: "Segoe UI";
+  font-size: 16px;
+}
+
+.cont--form {
+  background-color: #e97878;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.form--input {
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+}
+
+.form {
+  display: grid;
+  gap: 20px;
+}
+
+.form--button {
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  font-family: monospace;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  background-color: #ffee93;
+}
+
+.term-and-services {
+  font-size: 6px;
+  font-stretch: wider;
+}
